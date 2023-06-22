@@ -44,11 +44,11 @@
 
                         @if ($day == 1)
                         @for ($i = 0; $i < $start_of_month->dayOfWeek; $i++)
-                            <td class="border-start border-end border-bottom"></td>
+                            <td class="border-end border-bottom"></td>
                             @endfor
                             @endif
 
-                            <td class="border-start border-end border-bottom">
+                            <td class="border-end border-bottom">
                                 <button type="button" class="btn calendar_date_btn" data-bs-toggle="modal" data-bs-target="#timeSelectModal{{ $day }}">
                                     <span>{{ $day }}</span><br>
                                     <span><i class="fa-regular fa-circle calendar_circle_icon"></i></span>
