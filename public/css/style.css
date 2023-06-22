@@ -1,0 +1,102 @@
+body {
+    background-color: #FFFDE9;
+    color: #555555;
+}
+
+.modal-content {
+    background-color: #FFFDE9;
+}
+
+.color_red {
+    color: crimson;
+}
+
+.color_blue {
+    color: dodgerblue;
+}
+
+.calendar_wrap {
+    border: solid 1px #6AB49E;
+    border-radius: 10px;
+}
+
+.calendar_table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.calendar_tr {
+    border-bottom: solid 1px #6AB49E;
+}
+
+.calendar_td {
+    border: solid 1px #6AB49E;
+}
+
+header {
+    height: 70px;
+    background-color: #6AB49E;
+    box-shadow: 0px 8px 9px -2px grey;
+}
+
+.header_logo {
+    height: 45%;
+    margin: 20px 0 0 20px;
+}
+
+.calendar_date_btn {
+    height: 100%;
+    width: 100%;
+}
+
+.btn_green {
+    background-color: #6AB49E;
+    color: white;
+    font-weight: bold;
+}
+
+.time_select_btn {
+    background-color: #6AB49E;
+    border: solid 2px #6AB49E;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.time_select_btn_disabled{
+    background-color: grey;
+    border: solid 2px grey;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.time_select_btn:hover {
+    background-color: transparent;
+    color: #6AB49E;
+}
+
+.calendar_circle_icon {
+    color: #6AB49E;
+    font-size: 18px;
+}
+
+.btn_md {
+    width: 120px;
+}
+
+.btn_lg {
+    width: 200px;
+}
+
+.calendar_arrow_btn {
+    color: #6AB49E;
+    font-size: 30px;
+}
+
+.calendar_title_month {
+    font-size: 20px;
+    padding-top: 7px;
+}
